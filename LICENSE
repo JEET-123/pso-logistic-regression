@@ -19,3 +19,29 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+--
+
+# 4️⃣ Example Scripts
+
+## `examples/binary_example.py`
+
+```python
+from sklearn.datasets import make_classification
+from psolr import PSOLogisticRegression
+
+X, y = make_classification(
+    n_samples=2000,
+    n_features=12,
+    random_state=42
+)
+
+model = PSOLogisticRegression(
+    pop_size=40,
+    max_iter=150,
+    random_state=42
+)
+
+model.fit(X, y)
+print("Coefficients:", model.coef_)
+print("Predictions:", model.predict(X[:10]))
