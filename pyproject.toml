@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "psolr"
+version = "0.1.0"
+description = "Metaheuristic-Optimized Logistic Regression (PSO-LR / MOLR)"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Koustav Dutta", email = "koustavdutta.dgp@gmail.com"}
+]
+
+dependencies = [
+    "numpy>=1.20",
+    "scikit-learn>=1.2"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+[project.urls]
+Homepage = "https://github.com/JEET-123/pso-logistic-regression"
+Repository = "https://github.com/JEET-123/pso-logistic-regression"
+Issues = "https://github.com/yourusername/pso-logistic-regression/issues"
