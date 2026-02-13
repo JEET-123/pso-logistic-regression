@@ -4,11 +4,11 @@ setup(
     name="psolr",
     version="0.1.0",
     author="Koustav Dutta",
-    author_email="your.email@domain.com",
+    author_email="koustavdutta.dgp@gmail.com",
     description="Metaheuristic-Optimized Logistic Regression using Particle Swarm Optimization",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/pso-logistic-regression",
+    url="https://github.com/JEET-123/pso-logistic-regression",
     packages=find_packages(),
     python_requires=">=3.8",
     install_requires=[
