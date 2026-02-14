@@ -26,9 +26,7 @@ setup(
         "Intended Audience :: Information Technology",
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
         "Topic :: Scientific/Engineering :: Information Analysis",
-        "Topic :: Scientific/Engineering :: Machine Learning",
-        "Topic :: Scientific/Engineering :: Metaheurestic Algorithms",
-        "Topic :: Scientific/Engineering :: Neuroevolutionary Algorithm",
+        "Topic :: Software Development :: Libraries :: Python Modules",
         "Natural Language :: English"
     ],
     license="MIT",
