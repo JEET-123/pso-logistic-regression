@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="psolr",
-    version="0.1.0",
+    version="0.1.1",
     author="Koustav Dutta",
     author_email="koustavdutta.dgp@gmail.com",
     description="Metaheuristic-Optimized Logistic Regression using Particle Swarm Optimization",
