@@ -19,12 +19,17 @@ setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
-        "Intended Audience :: Science/Research/Management/Corporate",
+        "Environment :: Console", 
+        "Intended Audience :: Science/Research",
+        "Intended Audience :: Developers",
+        "Intended Audience :: Education",
+        "Intended Audience :: Information Technology",
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
         "Topic :: Scientific/Engineering :: Information Analysis",
         "Topic :: Scientific/Engineering :: Machine Learning",
         "Topic :: Scientific/Engineering :: Metaheurestic Algorithms",
-        "Topic :: Scientific/Engineering :: Neuroevolutionary Algorithm"
+        "Topic :: Scientific/Engineering :: Neuroevolutionary Algorithm",
+        "Natural Language :: English"
     ],
     license="MIT",
 )

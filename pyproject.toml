@@ -21,11 +21,19 @@ dependencies = [
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Console", 
     "Intended Audience :: Science/Research",
-    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: Information Technology",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Scientific/Engineering :: Machine Learning",
+    "Topic :: Scientific/Engineering :: Metaheurestic Algorithms",
+    "Topic :: Scientific/Engineering :: Neuroevolutionary Algorithm",
+    "Natural Language :: English"
 ]
 
 [project.urls]
-Homepage = "https://github.com/JEET-123/pso-logistic-regression"
 Repository = "https://github.com/JEET-123/pso-logistic-regression"
-Issues = "https://github.com/yourusername/pso-logistic-regression/issues"

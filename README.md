@@ -32,6 +32,25 @@ making it suitable for:
 
 ---
 
+## PSOLR Quick Start Example
+
+```python
+from psolr import PSOLogisticRegression
+from sklearn.datasets import make_classification
+
+X, y = make_classification(n_samples=1000, n_features=10)
+
+model = PSOLogisticRegression(
+    pop_size=50,
+    max_iter=200,
+    random_state=42
+)
+
+model.fit(X, y)
+y_pred = model.predict(X)
+
+---
+
 ## Key Features
 
 - Binary & Multinomial Logistic Regression
@@ -68,3 +87,12 @@ ensuring robust convergence.
 
 ```bash
 pip install psolr
+
+## Citation
+
+If you use PSO-LR in your research, please cite:
+
+Dutta, K. (2026). PSO-LR: Particle Swarm Optimization based Logistic Regression. GitHub. https://github.com/JEET-123/pso-logistic-regression
+
+DOI: 10.5281/zenodo.xxxxx
+

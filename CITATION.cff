@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "PSO-LR: Particle Swarm Optimized Logistic Regression"
+message: "If you use this package/software, please cite it as below."
+authors:
+  - family-names: Dutta
+    given-names: Koustav
+date-released: 2026-02-14
+version: 0.1.0
+repository-code: "https://github.com/yourusername/psolr"
