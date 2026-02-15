@@ -26,7 +26,6 @@ setup(
         "Intended Audience :: Information Technology",
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
         "Topic :: Scientific/Engineering :: Information Analysis",
-        "Topic :: Software Development :: Libraries :: Python Modules",
         "Natural Language :: English"
     ],
     license="MIT",
