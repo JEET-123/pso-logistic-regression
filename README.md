@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18639831.svg)](https://doi.org/10.5281/zenodo.18639831)
 [![PyPI version](https://img.shields.io/pypi/v/psolr.svg)](https://pypi.org/project/psolr/)
 [![Python](https://img.shields.io/pypi/pyversions/psolr.svg)](https://pypi.org/project/psolr/)
-[![License](https://img.shields.io/github/license/JEET-123/pso-logistic-regression)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
