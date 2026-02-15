@@ -9,8 +9,7 @@
 
 ## Overview
 
-**PSO-LR** is an open-source, sklearn-compatible implementation of  
-**Metaheuristic-Optimized Logistic Regression (MOLR)**.
+**PSO-LR** is an open-source, sklearn-compatible implementation of **Metaheuristic-Optimized Logistic Regression (MOLR)**.
 
 Unlike traditional logistic regression, which relies on gradient-based solvers  
 (LBFGS, Newton-CG, SGD), PSO-LR estimates model parameters using  
@@ -153,7 +152,7 @@ PSO-LR is particularly beneficial when:
 
 If you use PSO-LR in your research, please cite:
 
-Dutta, K. (2026). *PSO-LR: Particle Swarm Optimization based Logistic Regression* (Version 0.1.0). Zenodo. https://doi.org/10.5281/zenodo.18639831
+Dutta, K. (2026). *PSO-LR: Particle Swarm Optimization based Logistic Regression* (Version 0.1.1). Zenodo. https://doi.org/10.5281/zenodo.18639831
 
 BibTeX:
 
